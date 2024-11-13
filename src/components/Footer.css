@@ -1,0 +1,25 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #45a049;
+    color: white;
+    padding: -50px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Ajoute un espace entre le texte et les icônes */
+  }
+  
+  .social-icons a {
+    color: white; /* Couleur des icônes */
+    margin: 0 10px; /* Espace entre les icônes */
+    transition: color 0.3s; /* Animation de couleur au survol */
+  }
+  
+  .social-icons a:hover {
+    color: #f39c12; /* Change la couleur lors du survol */
+  }
+  
